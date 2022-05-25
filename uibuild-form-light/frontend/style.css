@@ -39,15 +39,6 @@ body #root h1 {
 }
 
 body #root input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 480px;
   height: 64px;
   margin-bottom: 20px;
@@ -94,15 +85,6 @@ body #root textarea::placeholder, body #root input::placeholder {
 }
 
 body #root textarea {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 480px;
   height: 120px;
   margin-bottom: 20px;
@@ -117,29 +99,11 @@ body #root textarea {
 }
 
 body #root #form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 15px;
   height: 15px;
 }
 
 body #root label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -153,7 +117,7 @@ body #root label a {
 body #root button {
   margin: 0;
   position: relative;
-  top: 0%;
+  top: 10%;
   left: 50%;
   -webkit-transform: translate(-50%, 0%);
           transform: translate(-50%, 0%);

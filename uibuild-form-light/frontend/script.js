@@ -17,7 +17,7 @@ let form = () => {
         <input id="form" type="checkbox"> 
 
         <label>
-            Elolvastam és elfogadom az <a href="#">Adatkezelési Tájékoztatót.<a>
+            Elolvastam és elfogadom az <a href="#"> Adatkezelési Tájékoztatót.<a>
         </label>
 
     </div>
