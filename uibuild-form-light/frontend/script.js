@@ -6,10 +6,12 @@ let form = () => {
         </h1>
     </div>
 
-    <input type="text" placeholder="Tárgy"> 
+    <div>
+        <input type="text" placeholder="Tárgy"> 
 
-    <textarea placeholder="Megjegyzés">
-    </textarea> 
+        <textarea placeholder="Megjegyzés">
+        </textarea> 
+    <div>
     
     <div>
         <input id="form" type="checkbox"> 
