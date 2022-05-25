@@ -11,7 +11,7 @@ body #root {
           transform: translate(-50%, -50%);
 }
 
-body h1 {
+body #root h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,12 +28,17 @@ body h1 {
 }
 
 @media (max-width: 520px) {
-  body h1 {
+  body #root h1 {
+    margin: 0;
+    position: relative;
+    left: 0%;
+    -webkit-transform: translate(-30%, -20%);
+            transform: translate(-30%, -20%);
     font-size: 36px;
   }
 }
 
-body input {
+body #root input {
   width: 480px;
   height: 64px;
   margin-bottom: 20px;
@@ -41,13 +46,13 @@ body input {
 }
 
 @media (max-width: 520px) {
-  body input {
+  body #root input {
     width: calc(100%-40px);
     margin-left: 20px;
   }
 }
 
-body textarea::-webkit-input-placeholder, body input::-webkit-input-placeholder {
+body #root textarea::-webkit-input-placeholder, body #root input::-webkit-input-placeholder {
   padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -55,7 +60,7 @@ body textarea::-webkit-input-placeholder, body input::-webkit-input-placeholder 
   color: #467745;
 }
 
-body textarea:-ms-input-placeholder, body input:-ms-input-placeholder {
+body #root textarea:-ms-input-placeholder, body #root input:-ms-input-placeholder {
   padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -63,7 +68,7 @@ body textarea:-ms-input-placeholder, body input:-ms-input-placeholder {
   color: #467745;
 }
 
-body textarea::-ms-input-placeholder, body input::-ms-input-placeholder {
+body #root textarea::-ms-input-placeholder, body #root input::-ms-input-placeholder {
   padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -71,7 +76,7 @@ body textarea::-ms-input-placeholder, body input::-ms-input-placeholder {
   color: #467745;
 }
 
-body textarea::placeholder, body input::placeholder {
+body #root textarea::placeholder, body #root input::placeholder {
   padding-left: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -79,7 +84,7 @@ body textarea::placeholder, body input::placeholder {
   color: #467745;
 }
 
-body textarea {
+body #root textarea {
   width: 480px;
   height: 120px;
   margin-bottom: 20px;
@@ -87,29 +92,29 @@ body textarea {
 }
 
 @media (max-width: 520px) {
-  body textarea {
+  body #root textarea {
     width: calc(100%-40px);
     margin-left: 20px;
   }
 }
 
-body #form {
+body #root #form {
   width: 15px;
   height: 15px;
 }
 
-body label {
+body #root label {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #467745;
 }
 
-body label a {
+body #root label a {
   color: #467745;
 }
 
-body button {
+body #root button {
   margin: 0;
   position: relative;
   top: 0%;
@@ -119,7 +124,7 @@ body button {
   width: 280px;
   height: 80px;
   border-style: none;
-  border-radius: 15%;
+  border-radius: 30%;
   font-family: 'EB Garamond', serif;
   font-weight: 400;
   font-size: 21px;
