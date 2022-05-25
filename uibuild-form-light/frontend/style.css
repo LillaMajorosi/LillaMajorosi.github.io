@@ -1,0 +1,130 @@
+body {
+  background-color: #f7e4d4;
+}
+
+body #root {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #467745;
+}
+
+@media (max-width: 520px) {
+  body h1 {
+    font-size: 36px;
+  }
+}
+
+body input {
+  width: 480px;
+  height: 64px;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+@media (max-width: 520px) {
+  body input {
+    width: calc(100%-40px);
+    margin-left: 20px;
+  }
+}
+
+body textarea::-webkit-input-placeholder, body input::-webkit-input-placeholder {
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+body textarea:-ms-input-placeholder, body input:-ms-input-placeholder {
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+body textarea::-ms-input-placeholder, body input::-ms-input-placeholder {
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+body textarea::placeholder, body input::placeholder {
+  padding-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+body textarea {
+  width: 480px;
+  height: 120px;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+@media (max-width: 520px) {
+  body textarea {
+    width: calc(100%-40px);
+    margin-left: 20px;
+  }
+}
+
+body #form {
+  width: 15px;
+  height: 15px;
+}
+
+body label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+body label a {
+  color: #467745;
+}
+
+body button {
+  margin: 0;
+  position: relative;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  width: 280px;
+  height: 80px;
+  border-style: none;
+  border-radius: 15%;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 21px;
+  color: #f7e4d4;
+  letter-spacing: 0.2em;
+  background-color: #467745;
+}
+/*# sourceMappingURL=style.css.map */

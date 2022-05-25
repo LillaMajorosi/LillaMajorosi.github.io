@@ -1,0 +1,108 @@
+body{
+    background-color: #f7e4d4;
+    
+    #root{
+        
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);      
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        font-size: 48px;
+        color: #467745;
+        
+        @media (max-width: 520px) {
+ 
+
+            font-size: 36px;
+        }
+    }
+
+    input{
+        width: 480px;
+        height: 64px;
+
+        margin-bottom: 20px;
+
+        border-style: none;
+
+        @media (max-width: 520px) {
+            width: calc(100%-40px);
+            margin-left: 20px;
+        }
+    }
+    
+    textarea::placeholder, input::placeholder{
+        padding-left: 10px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #467745;
+    }
+
+    textarea{
+        width: 480px;
+        height: 120px;
+        
+        margin-bottom: 20px;
+
+        border-style: none;
+
+        @media (max-width: 520px) {
+            width: calc(100%-40px);
+            margin-left: 20px;
+        }
+
+    }
+
+    #form{
+        width: 15px;
+        height: 15px;
+    }
+    
+    label{   
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #467745;
+
+        a{
+            color: #467745;
+        }
+    }
+
+    button{
+        margin: 0;
+        position: relative;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -0%);  
+
+
+        width: 280px;
+        height: 80px;
+
+        border-style: none;
+        border-radius: 15%;
+
+        font-family: 'EB Garamond', serif;
+        font-weight: 400;
+        font-size: 21px;
+        color:#f7e4d4;
+        letter-spacing: 0.2em;
+        
+        background-color: #467745;
+    }
+
+} 
